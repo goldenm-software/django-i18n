@@ -1,5 +1,5 @@
 """Translations loader"""
-from translations.loader import TranslationLoader
+from .loader import TranslationLoader
 import json
 
 loader = TranslationLoader()

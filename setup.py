@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
   name="django-i18n", # Replace with your own username
-  version="1.0.0",
+  version="1.0.2",
   author="Golden M",
   author_email="support@goldenmcorp.com",
   description="Lightweight i18n for Django framework",

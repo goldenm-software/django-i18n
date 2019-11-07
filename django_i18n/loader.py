@@ -74,8 +74,8 @@ class TranslationLoader:
       raise TranslationLoaderErrors('Fallback language has invalid language')
 
     if not hasattr(settings, 'LOCALE_FALLBACK'):
-      self.locale = 'en'
-      settings.LOCALE = 'en'
+      self.fallback = 'en'
+      settings.LOCALE_FALLBACK = 'en'
     elif settings.LOCALE_FALLBACK in settings.LOCALES:
       self.fallback = settings.LOCALE_FALLBACK
     else:
