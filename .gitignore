@@ -1,0 +1,4 @@
+/.env
+/dist
+/wialon.egg-info
+/test.py
